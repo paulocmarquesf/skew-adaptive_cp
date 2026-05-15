@@ -127,7 +127,7 @@ plot_intervals(dataset, tst$y, y_hat_tst, lower, upper, method = "Skew-adaptive"
 
 print(dataset)
 
-# calibration sample estimate \var\phi_n
+# calibration sample estimate \hat\varphi_n
 (r_hat_skew / r_hat_scl) * mean(cosh(gamma_hat_cal))
 
 # test sample average
