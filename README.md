@@ -1,5 +1,3 @@
-# skew-adaptive_cp
-
 # Skew-adaptive conformal prediction
 
 > Paulo C. Marques F. and Helton Graziadei
