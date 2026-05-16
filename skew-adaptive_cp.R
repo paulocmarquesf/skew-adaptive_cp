@@ -1,10 +1,6 @@
 # Skew-adaptive conformal prediction
 
-# Paulo C. Marques F. <PauloCMF1@insper.edu.br>
-#
-#   and
-#
-# Helton Graziadei <helton@ufscar.br>
+# Paulo C. Marques F. <PauloCMF1@insper.edu.br> and Helton Graziadei <helton@ufscar.br>
 
 library(tidyverse)
 library(ranger)
