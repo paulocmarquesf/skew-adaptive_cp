@@ -2,7 +2,7 @@
 
 > Paulo C. Marques F. and Helton Graziadei
 
-https://arxiv.org/abs/2605.16145
+> https://arxiv.org/abs/2605.16145
 
 ### Abstract
 

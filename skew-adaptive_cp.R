@@ -128,3 +128,22 @@ print(dataset)
 
 # test sample average
 mean(length_tst_skew / length_tst_scl)
+
+### Conditional coverage diagnostics
+
+width <- max(nchar(names(tst)))
+
+for (feature in c(sort(setdiff(names(tst), "y")), "y")) {
+    if (!is.numeric(tst[[feature]])) next
+    brks <- quantile(tst[[feature]], probs = seq(0, 1, 0.25), na.rm = TRUE)
+    if (anyDuplicated(brks)) next
+    quartiles <- cut(tst[[feature]], breaks = brks, include.lowest = TRUE, labels = c("Q1", "Q2", "Q3", "Q4"))
+    coverage <- (lower <= tst$y & tst$y <= upper)
+    cov_q <- tapply(coverage, quartiles, mean)
+    cat(sprintf(paste0("%-", width, "s | %.4f | %.4f | %.4f | %.4f\n"),
+                feature,
+                round(cov_q["Q1"], 4),
+                round(cov_q["Q2"], 4),
+                round(cov_q["Q3"], 4),
+                round(cov_q["Q4"], 4)))
+}
