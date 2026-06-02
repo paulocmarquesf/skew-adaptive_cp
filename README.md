@@ -1,3 +1,4 @@
+```bibtex
 @article{marques2026,
   title = {Skew-adaptive conformal prediction},
   author = {Marques F., Paulo C. and Graziadei, Helton},
@@ -6,6 +7,7 @@
   doi = {https://doi.org/10.48550/arXiv.2605.16145},
   url = {https://arxiv.org/abs/2605.16145}
 }
+```
 
 # Skew-adaptive conformal prediction
 
