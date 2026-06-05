@@ -1,9 +1,11 @@
 ```bibtex
-@article{marquesf2026,
+@misc{marquesf2026,
   title = {Skew-adaptive conformal prediction},
   author = {Paulo C. {Marques F.} and Helton Graziadei},
-  journal = {arXiv preprint arXiv:2605.16145},
   year = {2026},
+  eprint = {2605.16145},
+  arXivPrefix = {arXiv},
+  primaryClass = {stat.ML},
   doi = {https://doi.org/10.48550/arXiv.2605.16145},
   url = {https://arxiv.org/abs/2605.16145}
 }
