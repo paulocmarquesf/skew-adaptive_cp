@@ -5,7 +5,7 @@
   booktitle = {Proceedings of the Fiteenth Symposium on Conformal and Probabilistic Prediction with Applications},
   pages = {82--100},
   year = {2026},
-  editor = {Ahlberg, Ernst and Johansson, Ulf and Boström, Henrik and Carlevaro, Alberto and Hallberg Szabadváry, Johan and Carlsson, Lars},
+  editor = {Ahlberg, Ernst and Johansson, Ulf and Bostr{\"o}m, Henrik and Carlevaro, Alberto and Hallberg Szabadváry, Johan and Carlsson, Lars},
   volume = {329},
   series = {Proceedings of Machine Learning Research},
   month = {September},
