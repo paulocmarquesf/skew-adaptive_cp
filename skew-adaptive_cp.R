@@ -98,6 +98,7 @@ plot_intervals(dataset, tst$y, y_hat_tst, lower, upper, method = "Scaled-score",
 
 trn3 <- trn |>
     mutate(tau = asinh((y - y_hat_trn) / (2*sigma_hat_trn))) |>
+    # mutate(tau = (y - y_hat_trn) / sigma_hat_trn) |>
     select(-y)
 
 rf3 <- ranger(tau ~ ., data = trn3)
