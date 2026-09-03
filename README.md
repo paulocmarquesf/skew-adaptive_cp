@@ -11,7 +11,6 @@
   month = {September},
   publisher = {PMLR},
   url = {https://proceedings.mlr.press/v329/c-marques-f-26a.html}
-
 }
 ```
 
